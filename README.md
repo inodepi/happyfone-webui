@@ -2,7 +2,7 @@
 
 A production, dependency-free agent console for Telnyx WebRTC outbound calling. Built with vanilla HTML, CSS, and ES modules for static hosting.
 
-**Live:** https://potaterrr.github.io/happyfone-webui/
+**Live:** https://inodepi.github.io/happyfone-webui/
 
 The console connects directly to a Telnyx **SIP Credential Connection** from the browser and places real outbound calls. Signing in registers a live Telnyx WebRTC client.
 
@@ -100,9 +100,9 @@ GitHub Pages is a static host, so this app uses hash routing. Every route works 
 
 | View | URL |
 | --- | --- |
-| Login | `https://potaterrr.github.io/happyfone-webui/#/login-webui` |
-| Dashboard | `https://potaterrr.github.io/happyfone-webui/#/dashboard` |
-| Change password | `https://potaterrr.github.io/happyfone-webui/#/password-change` |
+| Login | `https://inodepi.github.io/happyfone-webui/#/login-webui` |
+| Dashboard | `https://inodepi.github.io/happyfone-webui/#/dashboard` |
+| Change password | `https://inodepi.github.io/happyfone-webui/#/password-change` |
 
 The bare project URL and `#/login-webui` always open the sign-in screen; signing in moves you to the dashboard. `#/dashboard` and `#/password-change` fall back to sign-in when there is no live session.
 
@@ -194,4 +194,4 @@ This repository is the standalone source of truth for the HappyPhone WebUI. Push
 
 For Dave's deployment to https://happyphone.lol/caller/, see [instructions.txt](instructions.txt).
 
-The public project card lives in the `potaterrr.github.io` repository under `/projects/happyfone-webui/` and links to this deployment.
+The public project card lives in the `inodepi.github.io` repository under `/projects/happyfone-webui/` and links to this deployment.
